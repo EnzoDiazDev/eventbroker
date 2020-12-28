@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "strict": true,
+      "noImplicitAny": false,
+      "outDir": "./dist/",
+      "baseUrl": "./src/",
+      "experimentalDecorators": true,
+      "declaration": true
+    },
+    "exclude": [
+      "./node_modules/",
+      "./dist/",
+    ],
+    "include": [
+      "./src/", 
+      "index.ts",
+    ],
+}

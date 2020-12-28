@@ -1,0 +1,9 @@
+src/
+dist/src/Main*
+index.ts
+node_modules/
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+.eslintrc.json
+tsconfig.json
+.github/
