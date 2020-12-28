@@ -1,5 +1,5 @@
 {
-  "name": "eventbroker",
+  "name": "@enzodiazdev/eventbroker",
   "version": "1.0.0",
   "description": "EventBroker es la solución orientada a objetos del EventEmitter de NodeJS",
   "main": "dist/index.js",
