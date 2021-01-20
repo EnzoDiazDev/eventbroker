@@ -1,9 +1,3 @@
-import Broker from "./src/Broker";
-import EventChannel from "./src/EventChannel";
-import Suscriptor from "./src/Suscriptor";
-
-export default {
-    Broker,
-    EventChannel,
-    Suscriptor
-};
+export {default as Broker} from "./src/Broker";
+export {default as EventChannel} from "./src/EventChannel";
+export {default as Suscriptor} from "./src/Suscriptor";
