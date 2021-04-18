@@ -5,9 +5,9 @@ import {KeysOfKeyOrAnys} from "./utils";
 export default abstract class EventChannel<EventList, Event extends keyof EventList> {
     readonly abstract event_type:Event
     readonly suscriptors:Set<Suscriptor<EventList, Event>> = new Set();
-    protected broker:Broker<EventList>
+    protected broker?:Broker<EventList>
 
-    constructor(broker:Broker<EventList>){
+    constructor(broker?:Broker<EventList>){
         this.broker = broker;
     }
 

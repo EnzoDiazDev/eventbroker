@@ -11,7 +11,7 @@ export default abstract class Broker<EventList> {
         this.productor = productor;
     }
 
-    on<Event extends keyof EventList, Channel extends EventChannel<EventList, Event>>(event:Event, channel:Channel):void {
+    public on<Event extends keyof EventList, Channel extends EventChannel<EventList, Event>>(event:Event, channel:Channel):void {
         let is_in_productor = false;
         this.event_channels.forEach(event_channel => {
             if(event_channel.event_type === event) is_in_productor = true;
